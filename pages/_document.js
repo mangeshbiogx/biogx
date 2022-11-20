@@ -47,9 +47,9 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script async src="js/theme.js"></script>
-          <script async src="js/theme-plugin.js"></script>
-          <script async src="js/theme-script.js"></script>
+          <script  src="js/theme.js"></script>
+          <script  src="js/theme-plugin.js"></script>
+          <script  src="js/theme-script.js"></script>
           
         </body>
       </Html>
