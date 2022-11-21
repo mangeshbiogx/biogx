@@ -85,7 +85,7 @@ export default function Header() {
         <div className="col">
           <nav className="navbar navbar-expand-lg">
             <a href="#">
-              <img   id="logo-img" className="img-fluid" src="images/logo.png" alt=""/>
+              <img   id="logo-img" className="img-fluid" src="images/logo-biogx.png" alt=""/>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
               <span></span>

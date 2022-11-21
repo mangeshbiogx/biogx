@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="row">
         <div className="col-lg-4 col-12 white-bg p-4 p-md-6">
           <a className="footer-logo" href="index.html">
-            <img id="footer-logo" className="img-fluid" src="images/logo.png" alt=""/>
+            <img id="footer-logo" className="img-fluid" src="images/logo-biogx.png" alt=""/>
           </a>
           <p className="my-4">Labortech will be administered through customizable programs incorporate partnership between family illness or disease management. Labortech Made With Latest Technology Bootstrap 5.</p>
           <div className="social-icons social-colored footer-social">
