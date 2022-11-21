@@ -46,10 +46,11 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script type="text/javascript"  src="js/theme.js" async ></script>
+          {/*}<script type="text/javascript"  src="js/theme.js" async ></script>
           <script type="text/javascript" src="js/theme-plugin.js" async></script>
-          <script type="text/javascript" src="js/theme-script.js" async></script>
-          
+    <script type="text/javascript" src="js/theme-script.js" async></script>{*/}
+          <script type="text/javascript"  src="js/allscript.js" async ></script>
+
         </body>
       </Html>
     )
