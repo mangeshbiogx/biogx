@@ -552,3 +552,20 @@ $(window).on('load', function() {
 });
 
 
+fullScreen(),
+    dropdown(),
+    
+    counter(),
+    magnificpopup(),
+    scrolltop(),
+    headerheight(),
+    fxheader(),
+    databgcolor(),
+    contactform(),  
+    progressbar(),
+    countdown(),
+    imagegallery(),
+    btnproduct(),
+    parallax(),
+    search(),
+    activeclass();
