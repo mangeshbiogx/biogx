@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from "next/script";
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const originalRenderPage = ctx.renderPage
@@ -47,9 +46,9 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <Script  src="js/theme.js"></Script>
-          <Script  src="js/theme-plugin.js"></Script>
-          <Script  src="js/theme-script.js"></Script>
+          <script type="text/javascript"  src="js/theme.js" async ></script>
+          <script type="text/javascript" src="js/theme-plugin.js" async></script>
+          <script type="text/javascript" src="js/theme-script.js" async></script>
           
         </body>
       </Html>
