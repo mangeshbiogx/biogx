@@ -4,14 +4,30 @@ import styles from '../styles/Home.module.css'
 
 import { useEffect } from "react"
 export default function Home() {
-  /*useEffect(() => {
+  useEffect(() => {
+    fullScreen(),
+    dropdown(),
     bannerslider(),
     owlcarousel()
-  })*/
+    counter(),
+    magnificpopup(),
+    scrolltop(),
+    headerheight(),
+    fxheader(),
+    databgcolor(),
+    contactform(),  
+    progressbar(),
+    countdown(),
+    imagegallery(),
+    btnproduct(),
+    parallax(),
+    search(),
+    activeclass();
+  })
   
   return (
      <>
-
+   
   <section className="banner p-0 pos-r fullscreen-banner">
   <div className="banner-slider owl-carousel no-pb" data-dots="false" data-nav="true">
     <div className="item hero-overlay" data-bg-img="images/bg/01.jpg" data-overlay="6">

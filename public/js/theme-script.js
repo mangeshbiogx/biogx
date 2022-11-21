@@ -410,9 +410,10 @@ function wowanimation() {
   HT Window load and functions
 --------------------------------------*/
 $(document).ready(function() {    
-    fullScreen(),
+    /*fullScreen(),
     dropdown(),
-    
+    bannerslider(),
+    owlcarousel()
     counter(),
     magnificpopup(),
     scrolltop(),
@@ -426,7 +427,7 @@ $(document).ready(function() {
     btnproduct(),
     parallax(),
     search(),
-    activeclass();
+    activeclass();*/
 });
 
 
