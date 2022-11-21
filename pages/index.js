@@ -5,24 +5,7 @@ import styles from '../styles/Home.module.css'
 import { useEffect } from "react"
 export default function Home() {
   useEffect(() => {
-    fullScreen(),
-    dropdown(),
-    bannerslider(),
-    owlcarousel()
-    counter(),
-    magnificpopup(),
-    scrolltop(),
-    headerheight(),
-    fxheader(),
-    databgcolor(),
-    contactform(),  
-    progressbar(),
-    countdown(),
-    imagegallery(),
-    btnproduct(),
-    parallax(),
-    search(),
-    activeclass();
+    
   })
   
   return (
