@@ -569,3 +569,4 @@ fullScreen(),
     parallax(),
     search(),
     activeclass();
+    
