@@ -82,7 +82,7 @@ export default function Footer() {
           </div>
           <div className="row">
             <div className="col">
-              <div className="copyright p-4 white-bg mt-5 ms-md-n6">Copyright © 2021 All rights reserved | Labortech Made by <i className="lar la-heart text-theme heartBeat2"></i>  <u><a href="www.themeht.com">ThemeHt</a></u>
+              <div className="copyright p-4 white-bg mt-5 ms-md-n6">Copyright © 2021 All rights reserved | BioGX Made by <i className="lar la-heart text-theme heartBeat2"></i>  <u><a href="https://www.biogx.com/">BioGX</a></u>
               </div>
             </div>
           </div>
