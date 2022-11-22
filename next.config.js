@@ -16,12 +16,12 @@ const nextConfig = {
   },
   basePath:"/out",
   assetPrefix:"/out",*/
-  /*images:{
+  images:{
     loader:"akamai",
     path:""
   },
   basePath:"/biogx",
-  assetPrefix:"/biogx"*/
+  assetPrefix:"/biogx"
 }
 
  
