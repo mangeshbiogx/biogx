@@ -1,20 +1,81 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import dynamic from "next/dynamic";
+
+var $ = require("jquery");
+if (typeof window !== "undefined") {
+   window.$ = window.jQuery = require("jquery");
+}
+
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 import { useEffect } from "react"
 export default function Home() {
   useEffect(() => {
-    
-    bannerslider(),
-    owlcarousel()
-     
+    console.log("came")
   })
   
+  const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+    ssr: false,
+  });
+
   return (
      <>
    
-  <section className="banner p-0 pos-r fullscreen-banner">
+   <section className="banner p-0 pos-r fullscreen-banner">
+
+   <OwlCarousel
+    className="owl-theme"  loop margin={10} nav items="1"
+    
+>
+    <div className="item hero-overlay" style={{ 
+      backgroundImage: `url("images/bg/01.jpg")` 
+    }} data-bg-img="images/bg/01.jpg" data-overlay="6">
+      <div className="align-center pt-0">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-10 col-12">
+              <h1 className="mb-4 text-black">Research & Verify <span className="text-theme">Laboratory</span> for Testing</h1>
+              <p className="lead font-w-5 text-black">Labortech is modern laboratory services Delivering newer flows by their place website is the first impression.</p>
+              <div className="btn-box mt-5">
+                <a className="btn btn-theme" href="about-us.html"> <span>More About</span>
+                </a>
+                <a className="btn btn-dark" href="#"> <span>Book Appointment</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="item hero-overlay" style={{ 
+      backgroundImage: `url("images/bg/02.jpg")` 
+    }} data-bg-img="images/bg/02.jpg" data-overlay="6">
+      <div className="align-center pt-0">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-10 col-12">
+              <h1 className="mb-4 text-black">Research & Verify <span className="text-theme">Laboratory</span> for Testing</h1>
+              <p className="lead font-w-5 text-black">Labortech is modern laboratory services Delivering newer flows by their place website is the first impression.</p>
+              <div className="btn-box mt-5">
+                <a className="btn btn-theme" href="about-us.html"> <span>More About</span>
+                </a>
+                <a className="btn btn-dark" href="#"> <span>Book Appointment</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+  </OwlCarousel>
+
+   </section>
+  {/*}section className="banner p-0 pos-r fullscreen-banner">
   <div className="banner-slider owl-carousel no-pb" data-dots="false" data-nav="true">
     <div className="item hero-overlay" data-bg-img="images/bg/01.jpg" data-overlay="6">
       <div className="align-center pt-0">
@@ -53,7 +114,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-  </section>
+  </section>{*/}
   
   {/*body content start*/}
 
