@@ -4,7 +4,9 @@ export default function about() {
   return (
     <>
         
-<section className="page-title parallaxie" data-bg-img="images/bg/06.jpg">
+<section className="page-title parallaxie" data-bg-img="./images/bg/06.jpg" style={{ 
+      backgroundImage: `url("./images/bg/06.jpg")` 
+    }}>
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
@@ -31,7 +33,7 @@ export default function about() {
   <div className="container-fluid ps-0">
     <div className="row">
       <div className="col-lg-7 col-md-10 col-11">
-        <div className="dark-bg p-lg-7 p-4 pb-10" data-bg-img="images/pattern/02.png">
+        <div className="dark-bg p-lg-7 p-4 pb-10" data-bg-img="./images/pattern/02.png">
           <div className="section-title ms-md-5">
             <h2 className="title">We’re Setting the New Standards in Laboratory & Research Professional.</h2> 
             <p className="lead text-light">We Provide All Aspects Of Medical Practice For Your Whole Family!</p>

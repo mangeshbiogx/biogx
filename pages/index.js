@@ -11,28 +11,64 @@ if (typeof window !== "undefined") {
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-import { useEffect } from "react"
+import { useState,useEffect } from "react"
 export default function Home() {
   useEffect(() => {
-    console.log("came")
+    
   })
+
+   
   
   const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
     ssr: false,
   });
 
+  function useWindowSize() {
+    // Initialize state with undefined width/height so server and client renders match
+    // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+    const [windowSize, setWindowSize] = useState({
+      width: undefined,
+      height: undefined,
+    });
+  
+    useEffect(() => {
+      // only execute all the code below in client side
+      // Handler to call on window resize
+      function handleResize() {
+        // Set window width/height to state
+        
+        setWindowSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+      }
+      
+      // Add event listener
+      window.addEventListener("resize", handleResize);
+       
+      // Call handler right away so state gets updated with initial window size
+      handleResize();
+      
+      // Remove event listener on cleanup
+      return () => window.removeEventListener("resize", handleResize);
+    }, []); // Empty array ensures that effect is only run on mount
+    return windowSize;
+  }
+
+  const size = useWindowSize();
+  
   return (
+
+     
      <>
    
-   <section className="banner p-0 pos-r fullscreen-banner">
+   <section className="banner p-0 pos-r fullscreen-banner" style={{height:size.height}}>
 
    <OwlCarousel
-    className="owl-theme"  loop margin={10} nav items="1"
-    
->
+    className="owl-theme"  loop margin={10}  dots={false} items="1" >
     <div className="item hero-overlay" style={{ 
-      backgroundImage: `url("images/bg/01.jpg")` 
-    }} data-bg-img="images/bg/01.jpg" data-overlay="6">
+      backgroundImage: `url("./images/bg/01.jpg")` 
+    }} data-bg-img="./images/bg/01.jpg" data-overlay="6">
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
@@ -52,8 +88,8 @@ export default function Home() {
     </div>
 
     <div className="item hero-overlay" style={{ 
-      backgroundImage: `url("images/bg/02.jpg")` 
-    }} data-bg-img="images/bg/02.jpg" data-overlay="6">
+      backgroundImage: `url("./images/bg/02.jpg")` 
+    }} data-bg-img="./images/bg/02.jpg" data-overlay="6">
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
