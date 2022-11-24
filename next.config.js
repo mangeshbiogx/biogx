@@ -10,12 +10,10 @@ const nextConfig = {
      "window.jQuery": "jquery",
   }));
     return config;},
-  /* images:{
+   /*images:{
     loader:"akamai",
     path:""
-  },
-  basePath:"/out",
-  assetPrefix:"/out",*/
+  }*/
  images:{
     loader:"akamai",
     path:""
