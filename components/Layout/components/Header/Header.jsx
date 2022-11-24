@@ -25,30 +25,16 @@ export default function Header() {
   <div className="header-top light-bg">
     <div className="container-fluid px-lg-8">
       <div className="row">
-        <div className="col d-flex align-items-center justify-content-between">
+        <div className="col d-flex align-items-center justify-content-center">
           <div className="topbar-link d-flex align-items-center text-black">
             <div className="d-none d-sm-flex align-items-center me-3">
-              <div> <i className="las la-phone"></i>
+              <div> <i className="las la-bullhorn"></i>
               </div>
-              <div>Emergency Line: <a className="text-black" href="tel:+912345678900"> +91-234-567-8900</a>
+              <div>Breaking News: BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
               </div>
-            </div>
-            <div className="d-none d-md-flex align-items-center me-3">
-              <div> <i className="las la-map-marker"></i>
-              </div>
-              <div>
-                <div>Location: Country USA</div>
-              </div>
-            </div>
-            <div className="d-none d-lg-flex align-items-center">
-              <div> <i className="las la-business-time"></i>
-              </div>
-              <div>
-                <div>Mon-Sat: 9.30am To 7.00pm</div>
-              </div>
-            </div>
+            </div>           
           </div>
-          <div className="d-flex align-items-center"> <a className="btn btn-white btn-sm py-3" href="#"><span>Login</span></a>
+          <div className="d-flex align-items-center"> <a className="btn btn-white btn-sm py-3" href="#"><span>Read More</span></a>
             <div className="social-icons d-none d-lg-inline-block ms-3">
               <ul className="list-inline">
                 <li><a href="#"><i className="lab la-facebook-f"></i></a>
@@ -58,22 +44,7 @@ export default function Header() {
                 <li><a href="#"><i className="lab la-linkedin-in"></i></a>
                 </li>
               </ul>
-            </div>
-            <div className="language-selection ms-3">
-              <div className="dropdown">
-                <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">English</button>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a className="dropdown-item" href="#">English</a>
-                  </li>
-                  <li><a className="dropdown-item" href="#">Arabic</a>
-                  </li>
-                  <li><a className="dropdown-item" href="#">French</a>
-                  </li>
-                  <li><a className="dropdown-item" href="#">Italian</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            </div> 
           </div>
         </div>
       </div>
