@@ -19,7 +19,8 @@ const nextConfig = {
     path:""
   },
   basePath:"/biogx",
-  assetPrefix:"/biogx"
+  assetPrefix:"/biogx",
+  trailingSlash: true,
 }
 
  
