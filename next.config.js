@@ -18,8 +18,8 @@ const nextConfig = {
     loader:"akamai",
     path:""
   },
-  basePath:"/biogx",
-  assetPrefix:"/biogx",
+  /*basePath:"/biogx",
+  assetPrefix:"/biogx",*/
   trailingSlash: true,
 }
 
