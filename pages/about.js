@@ -17,7 +17,7 @@ export default function about() {
   return (
     <>
         
-<section className="page-title parallaxie" data-bg-img="images/bg/biogx_about.jpg" style={{  backgroundImage: `url("images/bg/biogx_about.jpg")`  }}>
+<section className="page-title parallaxie" data-bg-img="/images/bg/biogx_about.jpg" style={{  backgroundImage: `url("/images/bg/biogx_about.jpg")`  }}>
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
@@ -44,7 +44,7 @@ export default function about() {
   <div className="container-fluid ps-0">
     <div className="row">
       <div className="col-lg-12 col-md-10 col-11">
-        <div className="dark-bg p-lg-7 p-4 pb-10" data-bg-img="./images/pattern/02.png">
+        <div className="dark-bg p-lg-7 p-4 pb-10" data-bg-img="/images/pattern/02.png">
           <div className="section-title ms-md-5">
             <h4 className='text-white'>BioGX, Inc. is a global molecular diagnostics company that has been focused on the health and safety of communities all over the world from its inception in 2007, originally developing tests for Water Quality, Food Safety and Pharma Quality Control.  The company has since grown into a formidable contender in the molecular diagnostics industry, leading the way for simple yet superior molecular diagnostics testing.</h4> 
            
@@ -97,7 +97,7 @@ export default function about() {
       <div className="col-lg-4 col-md-6">
         <div className="service-item style-3 text-center">
           <div className="service-img">
-            <img className="img-fluid" src="images/about/biogx_albama_location.webp" alt=""/>
+            <img className="img-fluid" src="/images/about/biogx_albama_location.webp" alt=""/>
           </div>
           <div className="service-desc pt-3 white-bg shadow-none">
              
@@ -113,7 +113,7 @@ export default function about() {
       <div className="col-lg-4 col-md-6 mt-5 mt-md-0">
         <div className="service-item style-3 text-center active">
           <div className="service-img">
-            <img className="img-fluid" src="images/about/biogx_texas_location.webp" alt=""/>
+            <img className="img-fluid" src="/images/about/biogx_texas_location.webp" alt=""/>
           </div>
           <div className="service-desc pt-3 white-bg shadow-none">
              
@@ -129,7 +129,7 @@ export default function about() {
       <div className="col-lg-4 col-md-6 mt-5 mt-lg-0">
         <div className="service-item style-3 text-center">
           <div className="service-img">
-            <img className="img-fluid" src="images/about/biogx_amsterdam_location.webp" alt=""/>
+            <img className="img-fluid" src="/images/about/biogx_amsterdam_location.webp" alt=""/>
           </div>
           <div className="service-desc pt-3 white-bg shadow-none">
              
@@ -161,7 +161,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/shazi-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/shazi-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/michael-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/michael-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -199,7 +199,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/Richard1.webp" alt=""/>
+                <img className="img-fluid" src="/images/about/Richard1.webp" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -218,7 +218,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/shahin-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/shahin-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -237,7 +237,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/chris-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/chris-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -256,7 +256,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/george-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/george-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/robert-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/robert-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -294,7 +294,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/mohammed-bio.jpg" alt=""/>
+                <img className="img-fluid" src="/images/about/mohammed-bio.jpg" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -313,7 +313,7 @@ export default function about() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className="img-fluid" src="images/about/Brent-Headshot-PNG.webp" alt=""/>
+                <img className="img-fluid" src="/images/about/Brent-Headshot-PNG.webp" alt=""/>
                 <div className="service-icon" style={{background:"transparent"}}> 
                 </div>
               </div>
@@ -355,32 +355,32 @@ export default function about() {
         <OwlCarousel className="owl-theme"  loop margin={10}   items="3" >
         <div class="item">
             <div class="cases-item position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="images/about/biogx_team1.jpg" alt=""/>
+              <img class="img-fluid w-100" src="/images/about/biogx_team1.jpg" alt=""/>
                
             </div>
           </div>
           <div class="item">
             <div class="cases-item position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="images/about/biogx_team2.jpg" alt=""/>
+              <img class="img-fluid w-100" src="/images/about/biogx_team2.jpg" alt=""/>
                  
             </div>
           </div>
           <div class="item">
             <div class="cases-item position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="images/about/biogx_team1.jpg" alt=""/>
+              <img class="img-fluid w-100" src="/images/about/biogx_team1.jpg" alt=""/>
                 
             </div>
           </div>
            
           <div class="item">
             <div class="cases-item position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="images/about/biogx_team2.jpg" alt=""/>
+              <img class="img-fluid w-100" src="/images/about/biogx_team2.jpg" alt=""/>
                  
             </div>
           </div>
           <div class="item">
             <div class="cases-item position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="images/about/biogx_team1.jpg" alt=""/>
+              <img class="img-fluid w-100" src="/images/about/biogx_team1.jpg" alt=""/>
                 
             </div>
           </div>
@@ -396,7 +396,7 @@ export default function about() {
   <div className="container-fluid p-0">
     <div className="row">
       <div className="col">
-        <div className="p-md-8 p-4 text-center parallaxie" style={{  backgroundImage: `url("./images/about/biogx_covidbg.jpg")`  }} data-bg-img="images/about/biogx_covidbg.jpg" data-overlay="4">
+        <div className="p-md-8 p-4 text-center parallaxie" style={{  backgroundImage: `url("./images/about/biogx_covidbg.jpg")`  }} data-bg-img="/images/about/biogx_covidbg.jpg" data-overlay="4">
           <h4 className="text-white mb-5">BioGX is headquartered in Birmingham, Alabama.  This location hosts the company’s research and development laboratories and a fully scaled production and manufacturing facility.  The company also holds a subsidiary in Amsterdam, The Netherlands, BioGX BV.  Acting as the BioGX source for global distribution to over 100 countries worldwide.</h4>
           <a className="btn btn-white" href="#"><span>Contact Us</span></a>
         </div>
