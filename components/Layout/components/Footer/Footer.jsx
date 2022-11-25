@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="row">
         <div className="col-lg-4 col-12 biogx-dark-bg p-4 p-md-6">
           <a className="footer-logo" href="index.html">
-            <img id="footer-logo" className="img-fluid" src="images/logo-biogx.png" alt=""/>
+            <img id="footer-logo" className="img-fluid" src={`${process.env.IMGPATH}logo-biogx.png`} alt=""/>
           </a>
           <p className="my-4 text-white">BioGX, Inc. is a global molecular diagnostics company that has been focused on the health and safety of communities all over the world</p>
           <div className="social-icons social-colored footer-social">

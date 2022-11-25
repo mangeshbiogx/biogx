@@ -66,7 +66,7 @@ export default function Home() {
    <section className={`banner p-0 pos-r fullscreen-banner ${Hstyle.homeBanner}`} style={{height:size.height}}>
 
    <OwlCarousel
-    className="owl-theme"  loop margin={10}  dots={false} items="1" >
+    className="owl-theme banner-slider"  loop margin={10}  dots={false} nav items="1" >
     <div className="item hero-overlay" style={{ 
       backgroundImage: `url("images/bg/biogx_bg1.jpg")` 
     }} data-bg-img="images/bg/biogx_bg1.jpg" data-overlay="0">
@@ -172,6 +172,91 @@ export default function Home() {
 
 <div className="page-content">
 
+
+
+{/*feature start*/}
+
+<section className="position-relative light-bg">
+  <div className="container">
+
+    <div className='row' style={{justifyContent:'center'}}>
+       <div class=" col-12"><div class="section-title mb-3"><h2 class="title mb-5 text-center">BENEFITS FOR LABS OF ALL SIZES.</h2></div></div>
+    </div>
+    
+    <div className="row">
+      
+      <div className="col-lg-3 col-sm-6">
+        <div className={`featured-item style-1 ${Hstyle.labBoxht}`}>
+          <div className="featured-icon"> <i className="flaticon-flask"></i>
+          </div>
+          <div className="featured-title">
+            <h5>ONE-TUBE REAGENTS</h5>
+          </div>
+          <div className="featured-desc">
+            <p>Enables any lab to quickly expand their molecular diagnostics menu.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-3 col-sm-6 mt-5 mt-sm-0">
+        <div className={`featured-item style-1 ${Hstyle.labBoxht} active`}>
+          <div className="featured-icon"> <i className="flaticon-laboratory"></i>
+          </div>
+          <div className="featured-title">
+            <h5>FINELY TUNED FORMULAS</h5>
+          </div>
+          <div className="featured-desc">
+            <p>Optimizes testing performance and sensitivity</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+        <div className={`featured-item style-1 ${Hstyle.labBoxht}`}>
+          <div className="featured-icon"> <i className="flaticon-biology-1"></i>
+          </div>
+          <div className="featured-title">
+            <h5>EASY TO USE</h5>
+          </div>
+          <div className="featured-desc">
+            <p>Makes molecular easy for any lab</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+        <div className={`featured-item style-1 ${Hstyle.labBoxht}`}>
+          <div className="featured-icon"> <i className="flaticon-help-call"></i>
+          </div>
+          <div className="featured-title">
+            <h5>NO REFRIGERATION</h5>
+          </div>
+          <div className="featured-desc">
+            <p>Allows transport and storage at room temperature</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/*feature end*/}
+
+<section class="position-relative ">
+  <div class="container z-index-1">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-7 col-12">
+        <div class="section-title mb-3">
+          <h2 class="title mb-5">YOUR ASSAY. ONE TUBE. ANY PLATFORM.</h2> 
+        </div>
+      </div>
+    </div>
+     
+     <div className='row'>
+        <img src='images/tube_animation.gif' className='img-fluid'></img>
+     </div>
+  </div>
+  
+</section>
+
+ 
 <section className="p-0">
   <div className="container-fluid p-0">
     <div className="row g-0">
@@ -202,108 +287,15 @@ export default function Home() {
 </section>
 
 
-<section class="position-relative light-bg">
-  <div class="container z-index-1">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-7 col-12">
-        <div class="section-title mb-3">
-          <h2 class="title mb-5">YOUR ASSAY. ONE TUBE. ANY PLATFORM.</h2> 
-        </div>
-      </div>
-    </div>
-     
-     <div className='row'>
-        <img src='images/tube_animation.gif' className='img-fluid'></img>
-     </div>
-  </div>
-  <div class="shape-1 overflow-hidden bottom"  style={{bottom:"-152px"}}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1" d="M0,96L21.8,112C43.6,128,87,160,131,154.7C174.5,149,218,107,262,90.7C305.5,75,349,85,393,122.7C436.4,160,480,224,524,234.7C567.3,245,611,203,655,165.3C698.2,128,742,96,785,85.3C829.1,75,873,85,916,117.3C960,149,1004,203,1047,229.3C1090.9,256,1135,256,1178,234.7C1221.8,213,1265,171,1309,154.7C1352.7,139,1396,149,1418,154.7L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path>
-    </svg>
-  </div>
-</section>
-
-<section className='p-0 text-center'>
-  <div className='container'>
-   
-  </div>
-  
-</section>
-{/*feature start*/}
-
-<section className="position-relative">
-  <div className="container">
-
-    <div className='row' style={{justifyContent:'center'}}>
-       <div class="col-lg-7 col-12"><div class="section-title mb-3"><h2 class="title mb-5">YOUR ASSAY. ONE TUBE. ANY PLATFORM.</h2></div></div>
-    </div>
-    
-    <div className="row">
-      
-      <div className="col-lg-3 col-sm-6">
-        <div className="featured-item style-1">
-          <div className="featured-icon"> <i className="flaticon-flask"></i>
-          </div>
-          <div className="featured-title">
-            <h5>ONE-TUBE REAGENTS</h5>
-          </div>
-          <div className="featured-desc">
-            <p>Enables any lab to quickly expand their molecular diagnostics menu.</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-3 col-sm-6 mt-5 mt-sm-0">
-        <div className="featured-item style-1 active">
-          <div className="featured-icon"> <i className="flaticon-laboratory"></i>
-          </div>
-          <div className="featured-title">
-            <h5>FINELY TUNED FORMULAS</h5>
-          </div>
-          <div className="featured-desc">
-            <p>Optimizes testing performance and sensitivity</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-3 col-sm-6 mt-5 mt-lg-0">
-        <div className="featured-item style-1">
-          <div className="featured-icon"> <i className="flaticon-biology-1"></i>
-          </div>
-          <div className="featured-title">
-            <h5>EASY TO USE</h5>
-          </div>
-          <div className="featured-desc">
-            <p>Makes molecular easy for any lab</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-3 col-sm-6 mt-5 mt-lg-0">
-        <div className="featured-item style-1">
-          <div className="featured-icon"> <i className="flaticon-help-call"></i>
-          </div>
-          <div className="featured-title">
-            <h5>NO REFRIGERATION</h5>
-          </div>
-          <div className="featured-desc">
-            <p>Allows transport and storage at room temperature</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/*feature end*/}
-
-
 {/*about start*/}
 
 <section className="position-relative bg-light">
   <div className="container">
     <div className="row align-items-center justify-content-between">
-      <div className="col-lg-6 col-12 order-lg-1">
+      <div className="col-lg-6 col-12 order-lg-1 pl-0">
         <img className="img-fluid" src="images/location/biogx_location1.webp" alt=""/>
       </div>
-      <div className="col-lg-6 col-12 mt-6 mt-lg-0">
+      <div className="col-lg-6 col-12 mt-6 mt-lg-0 pr-30">
         <div className="row align-items-end">
           <div className="col-md-12">
             <div className="section-title">
@@ -323,12 +315,12 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="row align-items-center justify-content-between mt-4">
+    <div className="row align-items-center justify-content-between  ">
       
-      <div className="col-lg-6 col-12 mt-6 mt-lg-0  order-lg-1">
+      <div className="col-lg-6 col-12 mt-6 mt-lg-0  order-lg-1 pl-30">
         <div className="row align-items-end">
           <div className="col-md-12">
-            <div className="section-title">
+            <div className="section-title pt-5">
               <h2 className="title">International <img src='images/location/biogx_international.png' className={`${Hstyle.location_titleimage2}`}></img></h2> 
               <p className="text-black font-w-5 mb-3">Our Sample-Ready™ Reagents are CE-IVD Marked and lyophilized in a single tube enabling labs to select a high-performance mix of all the necessary primers and probes to run fast, accurate and efficient RT-PCR tests.  The BioGX Reagents offer laboratories a wide variety of syndromic groups from respiratory to sexual health, enteric pathogens, drug resistance, meningitis, transplant and tropical disease.</p>
             </div>
@@ -344,7 +336,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="col-lg-6 col-12 order-lg-0">
+      <div className="col-lg-6 col-12 order-lg-0 pr-0">
         <img className="img-fluid" src="images/location/biogx_location2.webp" alt=""/>
       </div>
       

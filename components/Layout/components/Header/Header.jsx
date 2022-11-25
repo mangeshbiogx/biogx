@@ -55,9 +55,9 @@ export default function Header() {
       <div className="row">
         <div className="col">
           <nav className="navbar navbar-expand-lg">
-            <a href="#">
-              <img   id="logo-img" className="img-fluid" src="images/logo-biogx.png" alt=""/>
-            </a>
+            <Link href="/">
+              <img id="logo-img" className="img-fluid" src={`${process.env.IMGPATH}logo-biogx.png`} alt=""/>
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
               <span></span>
               <span></span>

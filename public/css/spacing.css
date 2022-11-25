@@ -238,6 +238,22 @@
 	padding-left: 0 !important
 }
 
+.pr-0 {
+	padding-right: 0 !important
+}
+
+.pl-0 {
+	padding-left: 0 !important
+}
+
+.pl-30 {
+	padding-left: 30px !important
+}
+
+.pr-30 {
+	padding-right: 30px !important
+}
+
 .p-1 {
 	padding: .25rem !important
 }
