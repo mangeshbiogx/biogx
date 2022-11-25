@@ -13,7 +13,9 @@ const nextConfig = {
    /*images:{
     loader:"akamai",
     path:""
-  }*/
+  },
+  basePath:"/out",
+  assetPrefix:"/out",*/
  images:{
     loader:"akamai",
     path:""
