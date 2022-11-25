@@ -17,7 +17,7 @@ export default function about() {
   return (
     <>
         
-<section className="page-title parallaxie" data-bg-img="/images/bg/biogx_about.jpg" style={{  backgroundImage: `url("/images/bg/biogx_about.jpg")`  }}>
+<section className="page-title parallaxie" data-bg-img="images/bg/biogx_about.jpg" style={{  backgroundImage: `url("images/bg/biogx_about.jpg")`  }}>
   <div className="container">
     <div className="row">
       <div className="col-lg-6">

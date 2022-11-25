@@ -10,20 +10,20 @@ const nextConfig = {
      "window.jQuery": "jquery",
   }));
     return config;},
-   images:{
+   /*images:{
     loader:"akamai",
     path:""
   },
-  /*basePath:"/out",
-  assetPrefix:"/out",
+  basePath:"/out",
+  assetPrefix:"/out",*/
  images:{
     loader:"akamai",
     path:""
-  },*/
+  },
   basePath:"/biogx",
   assetPrefix:"/biogx",
   trailingSlash: true,
-  exportPathMap: async function (
+  /*exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
   ) {
@@ -31,7 +31,7 @@ const nextConfig = {
       '/home': { page: '/' },
       '/': { page: '/' },
     }
-  }
+  }*/
 }
 
  
