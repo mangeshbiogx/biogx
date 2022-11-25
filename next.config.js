@@ -18,7 +18,7 @@ const nextConfig = {
   assetPrefix:"/out",*/
  images:{
     loader:"akamai",
-    path:"/"
+    path:"/biogx"
   },
   basePath:"/biogx",
   assetPrefix:"/biogx",
