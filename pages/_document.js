@@ -18,8 +18,9 @@ class MyDocument extends Document {
 
     return initialProps
   }
-
+ 
   render() {
+    const serverPath = process.env.HOST;
     return (
       <Html>
         <Head>
@@ -30,18 +31,18 @@ class MyDocument extends Document {
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <title>Biogx</title>
             <link rel="shortcut icon" href="images/favicon.ico" />
-            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/bootstrap.min.css`} rel="stylesheet" type="text/css" />
             <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet"/> 
             <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/> 
-            <link href="css/animate.css" rel="stylesheet" type="text/css" />
-            <link href="css/line-awesome.min.css" rel="stylesheet" type="text/css" />
-            <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-            <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-            <link href="css/lightslider.min.css" rel="stylesheet" type="text/css" />
-            <link href="css/base.css" rel="stylesheet" type="text/css" />
-            <link href="css/shortcodes.css" rel="stylesheet" type="text/css" />
-            <link href="css/spacing.css" rel="stylesheet" type="text/css" />
-            <link href="css/style.css" rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/animate.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/line-awesome.min.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/magnific-popup.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/owl.carousel.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/lightslider.min.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/base.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/shortcodes.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/spacing.css`} rel="stylesheet" type="text/css" />
+            <link href={`${serverPath}css/style.css`} rel="stylesheet" type="text/css" />
         </Head>
         
         <body>
@@ -53,7 +54,7 @@ class MyDocument extends Document {
       <script type="text/javascript" src="./js/allscript.js" />
     {*/}
          
-         <script type="text/javascript" src="./js/allscript.js" async/>
+         <script type="text/javascript" src={`${serverPath}js/allscript.js`}  async/>
 
         </body>
       </Html>
