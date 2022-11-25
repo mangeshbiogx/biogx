@@ -1,7 +1,7 @@
 import React from 'react'
 
 import dynamic from "next/dynamic";
-import aboutBanner from '../public/images/bg/biogx_about.jpg'
+
 var $ = require("jquery");
 if (typeof window !== "undefined") {
    window.$ = window.jQuery = require("jquery");
@@ -17,7 +17,7 @@ export default function about() {
   return (
     <>
         
-<section className="page-title parallaxie" data-bg-img="images/bg/biogx_about.jpg" style={{  backgroundImage: `url(${aboutBanner})`  }}>
+<section className="page-title parallaxie" data-bg-img="/images/bg/biogx_about.jpg" style={{  backgroundImage: `url("/images/bg/biogx_about.jpg")`  }}>
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
