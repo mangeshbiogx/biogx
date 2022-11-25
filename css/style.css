@@ -277,6 +277,10 @@ section {
     min-height: 750px;
 }
 
+.fullscreen-banner .owl-stage-outer {
+    padding-bottom:0px;
+}
+
 [data-bg-img] {
     background-size: cover;
     background-position: center center;
