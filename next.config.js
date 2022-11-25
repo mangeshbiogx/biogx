@@ -29,6 +29,7 @@ const nextConfig = {
   ) {
     return {
       '/home': { page: '/' },
+      '/': { page: '/' },
     }
   }
 }
