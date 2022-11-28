@@ -22,36 +22,24 @@ export default function Header() {
 
 {/*header start*/}
 <header id="site-header" className="header">
-  <div className="header-top light-bg">
+  <div className="header-top header-top-bg">
     <div className="container-fluid px-lg-8">
       <div className="row">
         <div className="col d-flex align-items-center justify-content-center">
-          <div className="topbar-link d-flex align-items-center text-black">
+          <div className="topbar-link d-flex align-items-center text-white">
             <div className="d-none d-sm-flex align-items-center me-3">
               <div> <i className="las la-bullhorn"></i>
               </div>
               <div>Breaking News: BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
               </div>
             </div>           
-          </div>
-          <div className="d-flex align-items-center"> <a className="btn btn-white btn-sm py-3" href="#"><span>Read More</span></a>
-            <div className="social-icons d-none d-lg-inline-block ms-3">
-              <ul className="list-inline">
-                <li><a href="#"><i className="lab la-facebook-f"></i></a>
-                </li>
-                <li><a href="#"><i className="lab la-twitter"></i></a>
-                </li>
-                <li><a href="#"><i className="lab la-linkedin-in"></i></a>
-                </li>
-              </ul>
-            </div> 
-          </div>
+          </div>     
         </div>
       </div>
     </div>
   </div>
   <div id="header-wrap">
-    <div className="container-fluid px-lg-8">
+    <div className="container-fluid px-lg-8 biogx-dark-bg">
       <div className="row">
         <div className="col">
           <nav className="navbar navbar-expand-lg">
