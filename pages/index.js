@@ -379,7 +379,7 @@ export default function Home() {
         <div class="p-md-8 p-4 text-center parallaxie" data-bg-img="images/bg/05.jpg"  style={{ 
       backgroundImage: `url("images/bg/05.jpg")` 
     }} data-overlay="4">
-          <h2 class="text-white mb-5">Questions About Services, Pricing Or Availability ? Let's Find Emergency Laboratory Services</h2>
+          <h2 class="text-white mb-5">Questions About Services, Pricing Or Availability ? Let{`'`}s Find Emergency Laboratory Services</h2>
           <a class="btn btn-white" href="contact.html"><span>Contact Us</span></a>
         </div>
       </div>
