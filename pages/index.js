@@ -180,7 +180,7 @@ export default function Home() {
   <div className="container">
 
     <div className='row' style={{justifyContent:'center'}}>
-       <div className=" col-12"><div className="section-title mb-3"><h2 className="title mb-5 text-center">BENEFITS FOR LABS OF ALL SIZES.</h2></div></div>
+       <div className=" col-12"><div className="section-title mb-3"><h2 className="title mb-5 text-center">BENEFITS FOR LABS OF ALL SIZES</h2></div></div>
     </div>
     
     <div className="row">
@@ -376,10 +376,8 @@ export default function Home() {
   <div class="container-fluid p-0 ">
     <div class="row">
       <div class="col">
-        <div class="p-md-8 p-4 text-center parallaxie" data-bg-img="images/bg/05.jpg"  style={{ 
-      backgroundImage: `url("images/bg/05.jpg")` 
-    }} data-overlay="4">
-          <h2 class="text-white mb-5">Questions About Services, Pricing Or Availability ? Let{`'`}s Find Emergency Laboratory Services</h2>
+        <div class="p-md-8 p-4 text-center parallaxie biogx-dark-bg"   data-overlay="4">
+          <h2 class="text-white mb-5">Question About Products, Pricing Or Availability ?</h2>
           <a class="btn btn-white" href="contact.html"><span>Contact Us</span></a>
         </div>
       </div>
