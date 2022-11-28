@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
           <div className="row">
             <div className="col">
-              <div className="copyright p-4 biogx-dark-bg mt-5 ms-md-n6">Copyright © 2022 All rights reserved | BioGX Made by <i className="lar la-heart text-biogx-light heartBeat2"></i>  <u><a href="https://www.biogx.com/">BioGX</a></u>
+              <div className="copyright p-4 biogx-dark-bg mt-5 ms-md-n6">Copyright © 2022 All rights reserved | BioGX Made by <i className="lar la-heart text-biogx-light heartBeat2"></i>  <u>BioGX</u>
               </div>
             </div>
           </div>

@@ -260,9 +260,9 @@ export default function Home() {
 <section className="p-0">
   <div className="container-fluid p-0">
     <div className="row g-0">
-      <div className="col-md-4" data-bg-img="images/about/05.jpg"  style={{ 
-      backgroundImage: `url("images/about/05.jpg")`}}></div>
-      <div className="col-md-8 theme-bg py-5 px-lg-8 px-5">
+      <div className="col-md-4" data-bg-img="images/about/testimonial.jpg"  style={{ 
+      backgroundImage: `url("images/about/testimonial.jpg")`}}></div>
+      <div className="col-md-8 biogx-dark-bg py-5 px-lg-8 px-5">
       <OwlCarousel
     className="owl-theme"  autoPlay={false} margin={10}  dots={false} items="1" >
           <div className="item">
