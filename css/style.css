@@ -127,6 +127,11 @@ ul {
     padding: 0px;
 }
 
+
+p, span, ul li, div {
+    color:#2d4a77;
+}
+
 /* ------------------------
     Helper class
 ------------------------*/
