@@ -31,7 +31,7 @@
 ------------------------*/
 
 body {
-    font-family: 'Livvic', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -230,8 +230,11 @@ section {
 }
 
 .biogx-dark-bg {
-    background-color: #203454;
+    background-color: #171151;
 }
+.biogx-light-bg {
+    background-color: #0cf;
+  }
 .text-biogx-dark {
     color: #2d4a77;
   }
@@ -241,6 +244,21 @@ section {
   .topbar-link {
     font-size: 16px;
     font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .header-top-bg{
+    background-color: #052370;
+  }
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  .navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active {
+    color: #0cf;
+  }
+  .nav-item.dropdown .dropdown-menu a:hover {
+    color: #0cf;
+
   } 
 .primary-footer h4 {
     color: #ffffff;

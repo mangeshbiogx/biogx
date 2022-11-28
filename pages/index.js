@@ -68,7 +68,7 @@ export default function Home() {
    <OwlCarousel
     className="owl-theme banner-slider"  loop margin={10}  dots={false} nav items="1" >
     <div className="item hero-overlay" style={{ 
-      backgroundImage: `url("images/bg/biogx_bg1.jpg")` 
+      backgroundImage: `url("images/bg/biogx_bg1.webp")` 
     }} data-bg-img="images/bg/biogx_bg1.jpg" data-overlay="0">
       <div className="align-center pt-0">
         <div className="container">
