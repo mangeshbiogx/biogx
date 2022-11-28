@@ -530,7 +530,7 @@ a, i, .btn, button, img, span, .dropdown-item, .nav-link.dropdown-toggle::after,
   border-radius: 0;
   text-transform: capitalize;
   position: relative;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active {
