@@ -306,7 +306,7 @@ a, i, .btn, button, img, span, .dropdown-item, .nav-link.dropdown-toggle::after,
   transition: all 0.3s ease-in-out;
   font-size: 32px;
   color: #ffffff;
-  background: #2363d5;
+  background: #171151;
 }
 
 .scroll-top a:hover, .scroll-top a:focus {
@@ -465,7 +465,7 @@ a, i, .btn, button, img, span, .dropdown-item, .nav-link.dropdown-toggle::after,
   }
 
   .nav-link.dropdown-toggle::after {
-    border: solid #1f2632;
+    border: solid #fff;
     border-width: 0 1px 1px 0;
     width: 0.425rem;
     height: 0.425rem;
