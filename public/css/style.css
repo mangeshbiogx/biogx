@@ -199,7 +199,7 @@ section {
     Text color
 ------------------------*/
 .text-theme {
-    color: #2363d5;
+    color: #00ccff;
 }
 
 .text-hover {
@@ -293,6 +293,7 @@ section {
 .fullscreen-banner {
     position: relative;
     min-height: 750px;
+    background-color:#171151;
 }
 
 .fullscreen-banner .owl-stage-outer {
