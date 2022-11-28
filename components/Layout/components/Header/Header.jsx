@@ -6,7 +6,7 @@ export default function Header() {
     <> 
 {/*preloader start*/}
 <div id="ht-preloader">
-  <div className="clear-loader d-flex align-items-center justify-content-center">
+   <div className="clear-loader d-flex align-items-center justify-content-center">
     <div className="loader">
      <span className="plus"></span>
     <span className="plus"></span>
@@ -15,7 +15,8 @@ export default function Header() {
     <span className="dot"></span>
     <span className="dot"></span>
     </div>
-  </div>
+  </div> 
+  {/*}<img src={`${process.env.IMGPATH}tubeloader.gif`} />{*/}
 </div>
 {/*preloader end*/}
 
@@ -28,9 +29,9 @@ export default function Header() {
         <div className="col d-flex align-items-center justify-content-center">
           <div className="topbar-link d-flex align-items-center text-white">
             <div className="d-none d-sm-flex align-items-center me-3">
-              <div> <i className="las la-bullhorn"></i>
+              <div> <i className="las la-bullhorn text-white"></i>
               </div>
-              <div>Breaking News: BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
+              <div className='text-white'>Breaking News: BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
               </div>
             </div>           
           </div>     

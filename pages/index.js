@@ -255,9 +255,9 @@ export default function Home() {
               <div className="testimonial-content">
                 <div className="testimonial-caption mb-3">
                   <h5 className="text-white">Eduardo Almeida</h5>
-                  <label className="fst-italic d-block text-light">-WETLAB-2 Scientist Eduardo Almeida, NASA</label>
+                  <label className="  d-block text-light">-WETLAB-2 Scientist Eduardo Almeida, NASA</label>
                 </div>
-                <p className="fst-italic text-light">“This is really a marvel of biochemistry because we’re able to put in a mixture of around a dozen components—the salts, enzymes, primers, and probes—that are usually assembled at the last minute and freeze-dry it. So everything you need to run RT-qPCR is there, and it can be stored for months until needed.”</p>
+                <p className=" text-light">“This is really a marvel of biochemistry because we’re able to put in a mixture of around a dozen components—the salts, enzymes, primers, and probes—that are usually assembled at the last minute and freeze-dry it. So everything you need to run RT-qPCR is there, and it can be stored for months until needed.”</p>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ export default function Home() {
     <div className="row justify-content-center text-center">
       <div className="col-lg-7 col-12">
         <div className="section-title mb-3">
-          <h2 className="title mb-0">We Provide All Aspects Of Medical Practice For Your Whole Family!</h2> 
+          <h2 className="title mb-0">OUR WIDE RANGE OF PRODUCTS</h2> 
         </div>
       </div>
     </div>
@@ -400,7 +400,7 @@ export default function Home() {
           <div className="col-md-12">
             <div className="section-title">
               <h2 className="title">U.S. <img src='images/location/biogx_us.png' className={`${Hstyle.location_titleimage1}`}></img></h2> 
-              <p className="text-black font-w-5 mb-3">Expand your molecular diagnostics menu with BioGX Sample-Ready™, custom-designed reagents, mixed and lyophilized in one tube to run on a platform of your choice.  Our Open Source Reagents (OSRs) manufacturing service offers laboratories an excellent option to outsource manufacturing of their Laboratory Developed Tests (LDTs).  The OSRs are fine-tuned to ensure the highest performance in any lab setting, from a sophisticated lab, to a remote lab with limited infrastructure and resources.</p>
+              <p className=" font-w-5 mb-3">Expand your molecular diagnostics menu with BioGX Sample-Ready™, custom-designed reagents, mixed and lyophilized in one tube to run on a platform of your choice.  Our Open Source Reagents (OSRs) manufacturing service offers laboratories an excellent option to outsource manufacturing of their Laboratory Developed Tests (LDTs).  The OSRs are fine-tuned to ensure the highest performance in any lab setting, from a sophisticated lab, to a remote lab with limited infrastructure and resources.</p>
             </div>
             
             <ul className="list-unstyled list-icon mt-4">
@@ -422,7 +422,7 @@ export default function Home() {
           <div className="col-md-12">
             <div className="section-title pt-5">
               <h2 className="title">International <img src='images/location/biogx_international.png' className={`${Hstyle.location_titleimage2}`}></img></h2> 
-              <p className="text-black font-w-5 mb-3">Our Sample-Ready™ Reagents are CE-IVD Marked and lyophilized in a single tube enabling labs to select a high-performance mix of all the necessary primers and probes to run fast, accurate and efficient RT-PCR tests.  The BioGX Reagents offer laboratories a wide variety of syndromic groups from respiratory to sexual health, enteric pathogens, drug resistance, meningitis, transplant and tropical disease.</p>
+              <p className="  font-w-5 mb-3">Our Sample-Ready™ Reagents are CE-IVD Marked and lyophilized in a single tube enabling labs to select a high-performance mix of all the necessary primers and probes to run fast, accurate and efficient RT-PCR tests.  The BioGX Reagents offer laboratories a wide variety of syndromic groups from respiratory to sexual health, enteric pathogens, drug resistance, meningitis, transplant and tropical disease.</p>
             </div>
             
             <ul className="list-unstyled list-icon mt-4">
@@ -479,9 +479,9 @@ export default function Home() {
           <img className="card-img-top" src="images/blog/biogxblog_1.webp" alt="Image"/>
           <div className="card-body px-4 pb-4 pt-0">
             <div className="mt-n3">
-              <div className="d-inline-block white-bg px-2 py-1 text-black box-shadow">10 November 22</div>
+              <div className="d-inline-block white-bg px-2 py-1  box-shadow">10 November 22</div>
             </div>
-            <h5 className="h4 my-3 truncate3">BioGX Expands FDA EUA with pixl™ Portable qPCR System for its Direct-Sample COVID-19 Assay
+            <h5 className="h5 my-3 truncate3">BioGX Expands FDA EUA with pixl™ Portable qPCR System for its Direct-Sample COVID-19 Assay
               </h5>
              
             <div className="d-flex justify-content-between align-items-center">
@@ -498,9 +498,9 @@ export default function Home() {
           <img className="card-img-top" src="images/blog/biogxblog_2.jpg" alt="Image"/>
           <div className="card-body px-4 pb-4 pt-0">
             <div className="mt-n3">
-              <div className="d-inline-block white-bg px-2 py-1 text-black box-shadow">20 Octomber 22</div>
+              <div className="d-inline-block white-bg px-2 py-1   box-shadow">20 Octomber 22</div>
             </div>
-            <h5 className="h4 my-3 truncate3">BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
+            <h5 className="h5 my-3 truncate3">BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
               </h5>
             
             <div className="d-flex justify-content-between align-items-center">
@@ -517,9 +517,9 @@ export default function Home() {
           <img className="card-img-top" src="images/blog/biogxblog_3.jpg" alt="Image"/>
           <div className="card-body px-4 pb-4 pt-0">
             <div className="mt-n3">
-              <div className="d-inline-block white-bg px-2 py-1 text-black box-shadow">20 July 22</div>
+              <div className="d-inline-block white-bg px-2 py-1   box-shadow">20 July 22</div>
             </div>
-            <h5 className="h4 my-3 truncate3">BioGX Launches CE-IVD Marked Multi-gene COVID-19 Point-of-Care Test at AACC
+            <h5 className="h5 my-3 truncate3">BioGX Launches CE-IVD Marked Multi-gene COVID-19 Point-of-Care Test at AACC
               </h5>
              
             <div className="d-flex justify-content-between align-items-center">
