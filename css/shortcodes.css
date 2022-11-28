@@ -432,7 +432,7 @@
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
-  background: #2363d5;
+  background: #0cf;
   color: #ffffff
 }
 
@@ -546,8 +546,8 @@
 }
 
 .featured-item.style-1:hover {
-  background: #1c2431;
-  border-color: #1c2431;
+  background: #171151;
+  border-color: #171151;
 }
 
 .featured-item.style-1:hover:after {
