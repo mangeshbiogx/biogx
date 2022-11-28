@@ -271,7 +271,7 @@ export default function Home() {
 <section className="p-0">
   <div className="container">
     <div className="row justify-content-center text-center">
-      <div className=" col-lg-7 col-12 ">
+      <div className=" col-lg-12 col-12 ">
         <div className="section-title mb-3">
           <h2 className="title mb-2  ">YOUR ASSAY. ONE TUBE. ANY PLATFORM.</h2> 
         </div>
@@ -481,8 +481,8 @@ export default function Home() {
             <div className="mt-n3">
               <div className="d-inline-block white-bg px-2 py-1 text-black box-shadow">10 November 22</div>
             </div>
-            <h2 className="h4 my-3">BioGX Expands FDA EUA with pixl™ Portable qPCR System for its Direct-Sample COVID-19 Assay
-              </h2>
+            <h5 className="h4 my-3 truncate3">BioGX Expands FDA EUA with pixl™ Portable qPCR System for its Direct-Sample COVID-19 Assay
+              </h5>
              
             <div className="d-flex justify-content-between align-items-center">
               <div><a className="px-3 py-2 btn btn-theme" href="#">Read More  </a>   
@@ -500,8 +500,8 @@ export default function Home() {
             <div className="mt-n3">
               <div className="d-inline-block white-bg px-2 py-1 text-black box-shadow">20 Octomber 22</div>
             </div>
-            <h2 className="h4 my-3">BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
-              </h2>
+            <h5 className="h4 my-3 truncate3">BioGX Announces Availability of Xfree PCR Reagents for Monkeypox
+              </h5>
             
             <div className="d-flex justify-content-between align-items-center">
               <div><a className="px-3 py-2 btn btn-theme" href="#">Read More  </a>  
@@ -519,8 +519,8 @@ export default function Home() {
             <div className="mt-n3">
               <div className="d-inline-block white-bg px-2 py-1 text-black box-shadow">20 July 22</div>
             </div>
-            <h2 className="h4 my-3">BioGX Launches CE-IVD Marked Multi-gene COVID-19 Point-of-Care Test at AACC
-              </h2>
+            <h5 className="h4 my-3 truncate3">BioGX Launches CE-IVD Marked Multi-gene COVID-19 Point-of-Care Test at AACC
+              </h5>
              
             <div className="d-flex justify-content-between align-items-center">
               <div><a className="px-3 py-2 btn btn-theme" href="#">Read More  </a>  

@@ -30,6 +30,21 @@
     General
 ------------------------*/
 
+[class*="truncate"] {
+    
+    /* autoprefixer: off */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    animation-duration: 3s;
+    animation-name: fontwsizes;
+    animation-iteration-count: infinite;
+}
+
+.truncate3 {
+    -webkit-line-clamp:3;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -52,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #1f2632;
+    color: #2d4a77;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -628,7 +643,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     text-align: center;
     display: inline-block;
     line-height: 22px;
-    background: #1c2431;
+    background: #2d4a77;
 }
 
 /* ------------------------
