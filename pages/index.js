@@ -68,8 +68,8 @@ export default function Home() {
    <OwlCarousel
     className="owl-theme banner-slider"  loop margin={0}  dots={false} nav items="1" >
     <div className="item hero-overlay" style={{ 
-      backgroundImage: `url("images/bg/biogx_bg5.png")` 
-    }} data-bg-img="images/bg/biogx_bg5.png" data-overlay="0">
+      backgroundImage: `url("images/bg/biogx_bg1.webp")` 
+    }} data-bg-img="images/bg/biogx_bg1.webp" data-overlay="0">
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
@@ -177,7 +177,7 @@ export default function Home() {
 {/*feature start*/}
 
 <section className="position-relative light-bg">
-  <div className="container">
+  <div className="container-fluid">
 
     <div className='row' style={{justifyContent:'center'}}>
        <div className=" col-12"><div className="section-title mb-3"><h2 className="title mb-5 text-center">BENEFITS FOR LABS OF ALL SIZES</h2></div></div>
@@ -303,13 +303,13 @@ export default function Home() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="https://www.biogx.com/wp-content/uploads/2022/09/400x600.png" alt=""/>
+                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="images/product/product-01.png" alt=""/>
                 <div className="service-icon"> <i className="flaticon-biology-1"></i>
                 </div>
               </div>
               <div className="service-desc white-bg mt-n5 pt-7">
                 <div className="service-title">
-                  <h4>Xfree™ Monkeypox* Direct PCR</h4>
+                  <h5>Xfree™ Monkeypox* Direct PCR</h5>
                 </div>
                 <p>We have put protocols to protect our patients and staff care.</p> <a className="link-btn" href="biochemistry-solution.html"><i className="las la-long-arrow-alt-right"></i></a>
               </div>
@@ -318,13 +318,13 @@ export default function Home() {
           <div className="item">
             <div className="service-item style-1 active">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="https://www.biogx.com/wp-content/uploads/2021/10/450-043-C.-auris-Series-1-scaled-1.png" alt=""/>
+                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="images/product/product-02.png" alt=""/>
                 <div className="service-icon"> <i className="flaticon-research"></i>
                 </div>
               </div>
               <div className="service-desc white-bg mt-n5 pt-7">
                 <div className="service-title">
-                  <h4> PCR SYNDROMIC MULTIPLEXES*</h4>
+                  <h5> PCR SYNDROMIC MULTIPLEXES*</h5>
                 </div>
                 <p>We have put protocols to protect our patients and staff care.</p> <a className="link-btn" href="pharmaceutical-research.html"><i className="las la-long-arrow-alt-right"></i></a>
               </div>
@@ -333,13 +333,13 @@ export default function Home() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="https://www.biogx.com/wp-content/uploads/2021/09/500-003-XMP-US_EX-US-Labels.jpg" alt=""/>
+                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="images/product/product-03.png" alt=""/>
                 <div className="service-icon"> <i className="flaticon-test"></i>
                 </div>
               </div>
               <div className="service-desc white-bg mt-n5 pt-7">
                 <div className="service-title">
-                  <h4>COVID-19 REAL-TIME PCR TEST</h4>
+                  <h5>COVID-19 REAL-TIME PCR TEST</h5>
                 </div>
                 <p>We have put protocols to protect our patients and staff care.</p> <a className="link-btn" href="pathologycam-testing.html"><i className="las la-long-arrow-alt-right"></i></a>
               </div>
@@ -349,13 +349,13 @@ export default function Home() {
           <div className="item">
             <div className="service-item style-1">
               <div className="service-img mx-4 z-index-1 overflow-hidden">
-                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="https://www.biogx.com/wp-content/uploads/2021/09/500-003-XMP-US_EX-US-Labels.jpg" alt=""/>
+                <img className={`img-fluid  ${Hstyle.productCarouselImg}`} src="images/product/product-04.png" alt=""/>
                 <div className="service-icon"> <i className="flaticon-test"></i>
                 </div>
               </div>
               <div className="service-desc white-bg mt-n5 pt-7">
                 <div className="service-title">
-                  <h4>COVID-19 REAL-TIME PCR TEST</h4>
+                  <h5>COVID-19 REAL-TIME PCR TEST</h5>
                 </div>
                 <p>We have put protocols to protect our patients and staff care.</p> <a className="link-btn" href="pathologycam-testing.html"><i className="las la-long-arrow-alt-right"></i></a>
               </div>
@@ -372,11 +372,13 @@ export default function Home() {
   </div>
 </section>
 
-<section class="p-0">
-  <div class="container-fluid p-0 ">
+<section class="p-0" >
+  <div class="container-fluid p-0  biogx-dark-bg "  style={{ 
+      backgroundImage: `url("images/bg/shape-bg-01.png")`,backgroundPosition:'bottom' 
+    }}>
     <div class="row">
       <div class="col">
-        <div class="p-md-8 p-4 text-center parallaxie biogx-dark-bg"   data-overlay="4">
+        <div class="p-md-8 p-4 text-center parallaxie"   data-overlay="4">
           <h2 class="text-white mb-5">Question About Products, Pricing Or Availability ?</h2>
           <a class="btn btn-white" href="contact.html"><span>Contact Us</span></a>
         </div>

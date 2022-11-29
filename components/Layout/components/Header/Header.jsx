@@ -7,16 +7,18 @@ export default function Header() {
 {/*preloader start*/}
 <div id="ht-preloader">
    <div className="clear-loader d-flex align-items-center justify-content-center">
-    <div className="loader">
-     <span className="plus"></span>
-    <span className="plus"></span>
-    <span className="dot"></span>
-    <span className="dot"></span>
-    <span className="dot"></span>
-    <span className="dot"></span>
-    </div>
+    <img src={`${process.env.IMGPATH}tube_animation.gif`} />
+     {/*}<div className="loader">
+       <span className="plus"></span>
+        <span className="plus"></span>
+        <span className="dot"></span>
+        <span className="dot"></span>
+        <span className="dot"></span>
+        <span className="dot"></span>
+        
+    </div>{*/}
   </div> 
-  {/*}<img src={`${process.env.IMGPATH}tubeloader.gif`} />{*/}
+  
 </div>
 {/*preloader end*/}
 
@@ -56,7 +58,7 @@ export default function Header() {
                 
                 <li className="nav-item dropdown"> <a className="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown">Products</a>
                   <ul className="dropdown-menu">
-                    <li><a href="index.html">Homepage One</a>
+                    <li><Link href="product_detail">Xfree Monkeypox Direct PCR TEST</Link>
                     </li>
                      
                   </ul>

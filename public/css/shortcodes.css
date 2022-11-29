@@ -92,6 +92,10 @@
   color: #ffffff;
 }
 
+.btn.btn-theme span{
+  color:#fff;
+}
+
 .btn.btn-theme:hover {
   background: #1c2431;
   color: #ffffff
