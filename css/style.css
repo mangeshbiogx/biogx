@@ -1131,3 +1131,30 @@ Extra
     }
 
 }
+
+
+.scrolltabcontent {
+    background:#00ccff;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .banner-slider.owl-carousel .owl-nav button.owl-prev:hover, .banner-slider.owl-carousel .owl-nav button.owl-next:hover {
+    background:#00ccff;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover span, .owl-carousel .owl-nav button.owl-next:hover span,
+ .banner-slider.owl-carousel .owl-nav button.owl-prev:hover span, .banner-slider.owl-carousel .owl-nav button.owl-next:hover span{
+    color:#fff;
+}
+
+.scrolltabcontent ul {
+    display: flex;
+    justify-content: center;
+}
+
+.scrolltabcontent ul li{
+    margin-right:50px;
+}
+
+.scrolltabcontent ul li a{ 
+    color:#fff;
+}
