@@ -335,6 +335,7 @@ section {
 
 .fullscreen-banner .owl-carousel, .fullscreen-banner .owl-stage-outer, .fullscreen-banner .owl-stage, .fullscreen-banner .owl-item, .fullscreen-banner .item {
     height: 100%;
+    margin-left:-1px;
 }
 
 /* -------------------------------
