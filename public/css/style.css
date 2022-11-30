@@ -1137,11 +1137,6 @@ Extra
 
 }
 
-
-.scrolltabcontent {
-    background:#00ccff;
-}
-
 .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .banner-slider.owl-carousel .owl-nav button.owl-prev:hover, .banner-slider.owl-carousel .owl-nav button.owl-next:hover {
     background:#00ccff;
 }
@@ -1150,6 +1145,15 @@ Extra
  .banner-slider.owl-carousel .owl-nav button.owl-prev:hover span, .banner-slider.owl-carousel .owl-nav button.owl-next:hover span{
     color:#fff;
 }
+
+.mainscrolltab .tabcontent {
+    padding-top: 100px;
+}
+
+.scrolltabcontent {
+    background:#052370
+}
+
 
 .scrolltabcontent ul {
     display: flex;
@@ -1162,4 +1166,39 @@ Extra
 
 .scrolltabcontent ul li a{ 
     color:#fff;
+    font-size:18px;
+    border-bottom: 5px solid #052370;
+    padding-bottom: 21px;
+}
+
+.scrolltabcontent ul li a.activeTab{ 
+    border-bottom: 5px solid #0cf;
+}
+ 
+
+.stickScrollNav .scrolltabcontent{
+    position: fixed;
+    width:100%;
+    top:80px;
+}
+ 
+
+
+.stickScrollNav .tabcontentInner{
+    padding-top:100px;
+}
+ 
+
+.stickScrollNav .activeTab {
+    border-bottom:2px solid red;
+}
+
+.presourcebox {
+    background:#f0f0f0;
+    padding:10px;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
 }
