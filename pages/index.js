@@ -73,7 +73,7 @@ export default function Home() {
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-10 col-12">
+            <div className="col-lg-9 col-md-10 col-12">
             <p className={Hstyle.bannerSubheading1+` lead font-w-5 text-white`}   >Direct Sample, Simple Yet Superior.</p>
 
               <h1 className="mb-4 text-white"><span className='text-theme'>Xfree<sup>™</sup> Monkeypox*</span>  Direct RT-PCR</h1>
@@ -98,7 +98,7 @@ export default function Home() {
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-10 col-12">
+            <div className="col-lg-9 col-md-10 col-12">
 
             <p className={`lead font-w-5 text-white ${Hstyle.bannerSubheading1} `}>FDA Emergency Use Authorized <br/>  Direct Sample, Extraction-Free. Simple Yet Superior.</p>
               <h1 className="mb-4 text-white"> <span className='text-theme'>Xfree<sup>™</sup> COVID-19</span> Direct RT-PCR</h1>
@@ -123,7 +123,7 @@ export default function Home() {
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-10 col-12">
+            <div className="col-lg-9 col-md-10 col-12">
               <h1 className="mb-4 text-white" ><span className='text-theme'>COVID-19/Flu Combo</span> for BD MAX<sup>™</sup>  for Testing</h1>
               <p className={`lead font-w-5 text-white ${Hstyle.bannerSubheading2} `}>All the components for a complete<br/>RT-PCR test in one tube.</p>
 
@@ -149,7 +149,7 @@ export default function Home() {
       <div className="align-center pt-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-10 col-12">
+            <div className="col-lg-9 col-md-10 col-12">
               <h1 className="mb-4 text-white">Customize your  molecular diagnostics portfolio </h1>
               <p className={`lead font-w-5 text-white ${Hstyle.bannerSubheading2} `}>Your Assay. One Tube. Any Platform. <br/>Just Add Water <sup>™</sup></p>
 
