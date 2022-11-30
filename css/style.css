@@ -312,7 +312,8 @@ section {
 ------------------------*/
 .fullscreen-banner {
     position: relative;
-    min-height: 750px;
+    min-height: 600px;
+    max-height:600px;
     background-color:#171151;
 }
 
@@ -335,7 +336,10 @@ section {
 
 .fullscreen-banner .owl-carousel, .fullscreen-banner .owl-stage-outer, .fullscreen-banner .owl-stage, .fullscreen-banner .owl-item, .fullscreen-banner .item {
     height: 100%;
-    margin-left:-1px;
+}
+
+.fullscreen-banner .owl-stage {
+    margin:0px -1px;
 }
 
 /* -------------------------------
