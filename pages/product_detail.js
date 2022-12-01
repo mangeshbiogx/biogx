@@ -27,7 +27,7 @@ export default function ProductDetail() {
         //const heightToHide = getOffset(document.getElementById("stickNav"));
         const windowScrollHeight = document.bodyscrollTop || document.documentElement.scrollTop;
         
-        if(windowScrollHeight>divTopOffset-100) {
+        if(windowScrollHeight>divTopOffset-50) {
             isSticky==""?setIsSticky("stickScrollNav"):"";
             
         } else {
@@ -100,7 +100,7 @@ export default function ProductDetail() {
             </section>
 
             <section  className={` mainscrolltab ${isSticky}`} id='stickNav' >
-                <div className='scrolltabcontent py-4'>
+                <div className='scrolltabcontent'>
                     <div className='container'>
                         <ul className='list-unstyled'>
                             <li>

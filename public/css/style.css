@@ -1168,7 +1168,8 @@ Extra
     color:#fff;
     font-size:18px;
     border-bottom: 5px solid #052370;
-    padding-bottom: 21px;
+    line-height: 70px;
+    display: block;
 }
 
 .scrolltabcontent ul li a.activeTab{ 
