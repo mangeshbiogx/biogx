@@ -12,27 +12,27 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
     ssr: false,
 });
 
-const getOffset = (element) => {
-	const elementRect = element?.getBoundingClientRect();
-	return elementRect?.top;
-}
-
-
 
 const asset_img = process.env.IMGPATH
   
-function product_detail() {
+export default function ProductDetail() {
    let divTopOffset = 0;
+
+    /*const getOffset = (element) => {
+	    const elementRect = element?.getBoundingClientRect();
+	    return elementRect?.top;
+    }*/
+
     const handleScroll = () => {
-        const heightToHide = getOffset(document.getElementById("stickNav"));
+        //const heightToHide = getOffset(document.getElementById("stickNav"));
         const windowScrollHeight = document.bodyscrollTop || document.documentElement.scrollTop;
         
         if(windowScrollHeight>divTopOffset-100) {
             isSticky==""?setIsSticky("stickScrollNav"):"";
-            console.log("came 1",isSticky)
+            
         } else {
             setIsSticky("")
-            console.log("came 2",isSticky)
+            
         }
     }
 
@@ -104,17 +104,17 @@ function product_detail() {
                     <div className='container'>
                         <ul className='list-unstyled'>
                             <li>
-                            <Link href="#productInfo"   activeClass="activeTab" smooth="true" spy="true" to="productInfo" scroll="false" >
+                            <Link href="#productInfo"   activeClass="activeTab" smooth="true" spy="true" to="productInfo" scroll="false" offset={-200}>
                                 Product Information
                             </Link>
                             </li>
                             <li>
-                            <Link href="#productRes"   activeClass="activeTab"  smooth="true" spy="true" to="productRes"  scroll="false">
+                            <Link href="#productRes"   activeClass="activeTab"  smooth="true" spy="true" to="productRes"  scroll="false" offset={-200}>
                                 Product Resources
                             </Link>
                             </li>
                             <li>
-                            <Link  href="#faqs"  activeClass="activeTab"  smooth="true" spy="true" to="faqs" scroll="false">
+                            <Link  href="#faqs"  activeClass="activeTab"  smooth="true" spy="true" to="faqs" scroll="false" offset={-200}>
                                 FAQs
                             </Link>
                             </li>
@@ -222,7 +222,7 @@ function product_detail() {
                                         <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                                         <div class="accordion-body">Viral transport media is available from several commercial vendors who may use the terminology VTM (Viral Transport Medium).  Alternate transport media, not identified in the package inserts (302-4421 Xpert Xpress SARS-CoV-2 Flu RSV EUA English Package Insert, 302-5159 Xpert Xpress SARS-CoV-2 Flu RSV CE IVD English Package Insert), should not be used with Xpert® Xpress SARS-CoV-2/Flu/RSV.  
 
-Due to the limited supply of commercial collection devices and transport media, the FDA has posted some information on their website including the “COVID-19 Transport Media Policy” and “Testing Supply Substitution Strategies” slides, which can be accessed on their “FAQs on Testing for SARS-CoV-2” webpage: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/faqs-testing-sars-cov-2#testingsupply. For additional questions, please contact Cepheid's Technical Support team.
+Due to the limited supply of commercial collection devices and transport media, the FDA has posted some information on their website including the “COVID-19 Transport Media Policy” and “Testing Supply Substitution Strategies” slides, which can be accessed on their “FAQs on Testing for SARS-CoV-2” webpage: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/faqs-testing-sars-cov-2#testingsupply.
 
 All inquiries about off-label use, including those pertaining to transport media/transport media containing inactivation reagents, need to be addressed to Medical Affairs for support (MedSci.Affairs@cepheid.com).</div>
                                         </div>
@@ -277,4 +277,3 @@ GeneXpert Xpress Systems (Hub and Tablet): Nasopharyngeal swab and nasal swab sp
   )
 }
 
-export default product_detail
