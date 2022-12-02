@@ -99,22 +99,22 @@ export default function ProductDetail() {
                 </div>
             </section>
 
-            <section  className={` mainscrolltab ${isSticky}`} id='stickNav' >
+            <section  className={` mainscrolltab  `} id='stickNav' >
                 <div className='scrolltabcontent'>
                     <div className='container'>
                         <ul className='list-unstyled'>
                             <li>
-                            <Link href="#productInfo"   activeClass="activeTab" smooth="true" spy="true" to="productInfo" scroll="false" offset={-200}>
+                            <Link href="#productInfo"   activeClass="activeTab" smooth="true" spy="true" to="productInfo" scroll="false" offset={-160}>
                                 Product Information
                             </Link>
                             </li>
                             <li>
-                            <Link href="#productRes"   activeClass="activeTab"  smooth="true" spy="true" to="productRes"  scroll="false" offset={-200}>
+                            <Link href="#productRes"   activeClass="activeTab"  smooth="true" spy="true" to="productRes"  scroll="false" offset={-160}>
                                 Product Resources
                             </Link>
                             </li>
                             <li>
-                            <Link  href="#faqs"  activeClass="activeTab"  smooth="true" spy="true" to="faqs" scroll="false" offset={-200}>
+                            <Link  href="#faqs"  activeClass="activeTab"  smooth="true" spy="true" to="faqs" scroll="false" offset={-160}>
                                 FAQs
                             </Link>
                             </li>
@@ -125,7 +125,7 @@ export default function ProductDetail() {
 
                 <div className='container tabcontent'>
 
-                    <div id="productInfo" className='tabcontentInner'  >
+                    <div id="productInfo" className='tabcontentInner '  >
                         <div className='row'>
                             <div className='col-6'>
                                 <h3>The Need</h3>
@@ -149,6 +149,18 @@ export default function ProductDetail() {
                                     <li className='py-1'>Standardization of results between the central lab and near patient testing sites</li>
                                 </ul>
                             </div>
+
+                            <div className='col-6'>
+                                <h3>The Solution</h3>
+                                <hr/>
+                                <ul className='px-3'>
+                                    <li className='py-1'>Actionable detection of SARS-CoV-2, Flu A, Flu B, and RSV in as little as 25 minutes</li>
+                                    <li className='py-1'>Actionable on-demand results with 1 sample collection</li>
+                                    <li className='py-1'>Optimizes GeneXpert® System module capacity by combining 2 Xpress tests into 1</li>
+                                    <li className='py-1'>Standardization of results between the central lab and near patient testing sites</li>
+                                </ul>
+                            </div>
+                            
                         </div>
                     </div>
                     <div id="productRes" className='tabcontentInner'  >
