@@ -52,12 +52,12 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     color: #454545;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     letter-spacing: 0.5px
 }
 
 .page-wrapper {
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 /* ------------------------
@@ -933,6 +933,7 @@ Extra
     /*Header*/
     #header-wrap {
         padding: 10px 0;
+        background: #171151;
     }
 
     .navbar-toggler {
@@ -1149,13 +1150,15 @@ Extra
 .mainscrolltab .tabcontent {
     padding-top: -50px;
     padding-bottom:50px;
-    
 }
 
 .scrolltabcontent {
     background:#052370;
     position:sticky;
     top:80px;
+    z-index:5;
+    overflow: hidden;
+    min-height:75.5px;
 }
 
 
@@ -1215,3 +1218,28 @@ Extra
     padding-top:80px;
      
 }
+
+/*file tree start*/
+.content-area-wrapper {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar-left {
+    float: left;
+}
+
+.content-right {
+    float: right;
+    width: calc(100% - 260px);
+}
+
+.sidebar-file-manager {
+    width: 300px !important;
+}
+
+.tree-view  {
+    padding-left:10px;
+}
+/*file tree end*/

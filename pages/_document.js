@@ -45,6 +45,9 @@ class MyDocument extends Document {
             <link href={`${serverPath}css/shortcodes.css`} rel="stylesheet" type="text/css" />
             <link href={`${serverPath}css/spacing.css`} rel="stylesheet" type="text/css" />
             <link href={`${serverPath}css/style.css`} rel="stylesheet" type="text/css" />
+
+            <link rel="stylesheet" type="text/css" href={`${serverPath}css/style.css`}/> 
+            <link rel="stylesheet" type="text/css" href={`${serverPath}css/file-manager.css`}/>
         </Head>
         
         <body>
@@ -57,8 +60,11 @@ class MyDocument extends Document {
     {*/}
          
          <script type="text/javascript" src={`${serverPath}js/allscript.js`}  async/>
+         
+         
 
         </body>
+         
       </Html>
     )
   }

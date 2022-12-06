@@ -549,9 +549,10 @@ $window.resize(function() {
 $(window).on('load', function() {
     preloader(),    
     wowanimation();
+
+     
 });
-
-
+ 
 fullScreen(),
     dropdown(),
     
@@ -570,3 +571,4 @@ fullScreen(),
     search(),
     activeclass();
     
+     

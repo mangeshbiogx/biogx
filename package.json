@@ -10,13 +10,17 @@
     "export": "next export"
   },
   "dependencies": {
+    "@o2xp/react-tree-view": "^1.0.1",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.6.1",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-jstree-table": "^0.0.24",
     "react-owl-carousel": "^2.3.3",
-    "react-scroll": "^1.8.8"
+    "react-scroll": "^1.8.8",
+    "react-treeview": "^0.4.7"
   }
 }

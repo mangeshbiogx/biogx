@@ -40,7 +40,7 @@ export default function ProductDetail() {
      
 
     useEffect(()=> {
-        
+        document.body.classList.add('setOverflow');
         divTopOffset = document.getElementById("stickNav").offsetTop;
         window.addEventListener('scroll',handleScroll);
         return () => {
