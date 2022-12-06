@@ -22,6 +22,11 @@
 /* ------------------------
     General
 ------------------------*/
+
+.setOverflow, .setOverflow .page-wrapper {
+  overflow-x: initial;
+}
+
 a, a:focus {
   text-decoration: none !important;
 }
@@ -361,6 +366,12 @@ a, i, .btn, button, img, span, .dropdown-item, .nav-link.dropdown-toggle::after,
   z-index: 999 !important;
   background: #ffffff;
   animation: smoothScroll 1s forwards;
+  padding-bottom: 6px;
+  background: #171151;
+}
+
+#header-wrap.fixed-header .navbar-nav .nav-item.dropdown .dropdown-menu {
+  margin-top:6px;
 }
 
 @keyframes smoothScroll {
