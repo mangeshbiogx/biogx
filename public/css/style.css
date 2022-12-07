@@ -1242,4 +1242,22 @@ Extra
 .tree-view  {
     padding-left:10px;
 }
+
+.tree-view_arrow-collapsed {
+    transform: none !important;
+}
+.tree-view_arrow{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.tree-view_arrow.tree-view_arrow-collapsed::after {
+    content: '\f07b' !important;
+}
+
+.tree-view_item .tree-view_arrow::after {
+    content: '\f114';
+}
 /*file tree end*/

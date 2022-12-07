@@ -9,15 +9,28 @@ function Filedir() {
         {
           name: 'CE-IVD & LUO Documents',
           collapsed: false,
+          files:[],
           chain: [
-            {name: 'Instructions For Use Manual & Product Inserts', chain:[{name:'400-002-C-MAX'},{name:'400-003-C-MAX'}], collapsed: false},
-            {name: 'SDS', chain:[{name:'SYNDROMIC MULTIPLEXES - FOR RESEARCH USE ONLY',chain:[{name:'450-002',name:'450-001'}]}], collapsed: false},
+            {name: 'Instructions For Use Manual & Product Inserts',files:[], chain:[{name:'400-002-C-MAX',files:[{name:'400-002-C-MAX Bordetella Speciation',link:'https://www.biogx.com/download/76/400-002-c-max/12065/400-002-c-max-bordetella-speciation-rev09-27aug2021.pdf',type:'pdf'},{name:'400-002-C-MAX Bordetella',link:'https://www.biogx.com/download/76/400-002-c-max/12065/400-002-c-max-bordetella-speciation-rev09-27aug2021.pdf',type:'pdf'}]},{name:'400-003-C-MAX'}], collapsed: false},
+            {name: 'SDS',files:[], chain:[{name:'SYNDROMIC MULTIPLEXES - FOR RESEARCH USE ONLY',chain:[{name:'450-002'}]}], collapsed: false},
           ],
         },
       ];
 
-      const handleClick = (name,chain) => {
-        console.log(name,chain)
+      const dataSource2 = [
+        {
+          name: 'Xfree™ Direct RT-PCR Documents',
+          collapsed: false,
+          files:[],
+          chain: [
+            {name: '500-003-XMP',files:[], chain:[{name:'Xfree™ IFU',files:[{name:'400-002-C-MAX Bordetella Speciation',link:'https://www.biogx.com/download/76/400-002-c-max/12065/400-002-c-max-bordetella-speciation-rev09-27aug2021.pdf',type:'pdf'},{name:'400-002-C-MAX Bordetella',link:'https://www.biogx.com/download/76/400-002-c-max/12065/400-002-c-max-bordetella-speciation-rev09-27aug2021.pdf',type:'pdf'}]},{name:'Xfree™ Workflow'},{name:'Xfree™ Flyer'},{name:'Xfree™ Brochure'}], collapsed: false},
+             
+          ],
+        },
+      ];
+
+      const handleClick = (name,chain,files) => {
+        console.log(files)
         let chain_name = name;
         let folderdata = chain;
         let htmldata = [];
@@ -49,7 +62,38 @@ function Filedir() {
                 
             })
         }
+
+        let filesdata = [];
+        if(files) {
+            filesdata = files.map((file, i) => {
+            
+             return (`<div class="card file-manager-item file">
+                        <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="customCheck7">
+                        <label class="form-check-label" for="customCheck7"></label>
+                        </div>
+                        <div class="card-img-top file-logo-wrapper">
+                        <div class="dropdown float-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical toggle-dropdown mt-n25"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center w-100">
+                            <img src="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo-1/images/icons/pdf.png" alt="file-icon" height="50px" width="50px">
+                        </div>
+                        </div>
+                        <div class="card-body">
+                        <div class="content-wrapper">
+                            <p class="card-text file-name mb-0" title=`+file.name+`>`+file.name+`</p>
+                            <p class="card-text file-size mb-0">12.6mb</p>
+                            <p class="card-text file-date">23 may 2019</p>
+                        </div>
+                        <small class="file-accessed text-muted">Last accessed: 3 hours ago</small>
+                        </div>
+                    </div>`)
+                
+            })
+        }
         
+        htmldata.push(filesdata);
 
         document.getElementById("mainFolderListName").innerHTML = name;
         document.getElementById("mainFolderList").innerHTML = htmldata.join("");
@@ -74,15 +118,15 @@ function Filedir() {
 
                                         {dataSource.map((node, i) => {
                                             const type = node.name;
-                                            const label = <span className="node" onClick={()=>handleClick(node.name,node.chain)}>{type}</span>;
+                                            const label = <span className="node" onClick={()=>handleClick(node.name,node.chain,node.files)}>{type}</span>;
                                             return (
                                                 <TreeView key={type + '|' + i} nodeLabel={label} defaultCollapsed={false} >
                                                 {node.chain.map(chain2 => {
-                                                    const label2 = <span className="node"  onClick={()=>handleClick(chain2.name,chain2.chain)}>{chain2.name}</span>;
+                                                    const label2 = <span className="node"  onClick={()=>handleClick(chain2.name,chain2.chain,chain2.files)}>{chain2.name}</span>;
                                                     return (
                                                     <TreeView nodeLabel={label2} key={chain2.name} defaultCollapsed={true}>
                                                         {chain2.chain.map(chain3 => {
-                                                            const label2 = <span className="node"  onClick={()=>handleClick(chain3.name,chain3.chain)}>{chain3.name}</span>;
+                                                            const label2 = <span className="node"  onClick={()=>handleClick(chain3.name,chain3.chain,chain3.files)}>{chain3.name}</span>;
                                                             return (
                                                             <TreeView nodeLabel={label2} key={chain3.name} defaultCollapsed={true}>
                                                                  
@@ -96,12 +140,45 @@ function Filedir() {
                                                 </TreeView>
                                             );
                                         })}
-
-                                        
-                                         
                                         
                                     </div>
                                      
+
+                                    <div className="list-group mt-3">
+                                        <a href="#" className="list-group-item list-group-item-action">
+                                            <i data-feather="star" className="me-50 font-medium-3"></i>
+                                            <span className="align-middle">Xfree™ Direct RT-PCR Documents</span>
+                                        </a>
+
+                                        {dataSource2.map((node, i) => {
+                                            const type = node.name;
+                                            const label = <span className="node" onClick={()=>handleClick(node.name,node.chain,node.files)}>{type}</span>;
+                                            return (
+                                                <TreeView key={type + '|' + i} nodeLabel={label} defaultCollapsed={true} >
+                                                {node.chain.map(chain2 => {
+                                                    const label2 = <span className="node"  onClick={()=>handleClick(chain2.name,chain2.chain,chain2.files)}>{chain2.name}</span>;
+                                                    return (
+                                                    <TreeView nodeLabel={label2} key={chain2.name} defaultCollapsed={true}>
+                                                        {chain2.chain.map(chain3 => {
+                                                            const label2 = <span className="node"  onClick={()=>handleClick(chain3.name,chain3.chain,chain3.files)}>{chain3.name}</span>;
+                                                            return (
+                                                            <TreeView nodeLabel={label2} key={chain3.name} defaultCollapsed={true}>
+                                                                
+                                                            </TreeView>
+                                                            );
+                                                        })}
+                                                        
+                                                    </TreeView>
+                                                    );
+                                                })}
+                                                </TreeView>
+                                            );
+                                        })}
+
+                                        
+                                        
+                                        
+                                    </div>
                                 
                                 </div>
                                 
