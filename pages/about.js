@@ -46,8 +46,8 @@ export default function about() {
 <section className="p-0">
   <div className="container-fluid ps-0">
     <div className="row">
-      <div className="col-lg-12 col-md-10 col-11">
-        <div className="dark-bg p-lg-7 p-4 pb-10" >
+      <div className="col-lg-12 col-md-10 col-11 p-0">
+        <div className="biogx-dark-bg p-lg-7 p-4 pb-10" >
           <div className="section-title ms-md-5">
             <h4 className='text-white'>BioGX, Inc. is a global molecular diagnostics company that has been focused on the health and safety of communities all over the world from its inception in 2007, originally developing tests for Water Quality, Food Safety and Pharma Quality Control.  The company has since grown into a formidable contender in the molecular diagnostics industry, leading the way for simple yet superior molecular diagnostics testing.</h4> 
            
