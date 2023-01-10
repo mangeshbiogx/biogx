@@ -157,9 +157,10 @@ export default function Header() {
                       Contact Us
                     </a>
                   <ul className="dropdown-menu">
-                    <li><a href="research-style-1.html">Research Style One</a>
+                  
+                    <li><Link href="/contact" >Contact</Link>
                     </li>
-                    <li><a href="research-single.html">Research Single</a>
+                    <li><Link href="/distributors" >Distributors</Link>
                     </li>
                   </ul>
                 </li>
