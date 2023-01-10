@@ -127,7 +127,6 @@ ul {
     padding: 0px;
 }
 
-
 p, span, ul li, div {
     color:#2d4a77;
 }
@@ -261,6 +260,11 @@ section {
 .text-biogx-light {
     color: #0cf;
   }
+
+  .text-white {
+    color: #fff;
+  }
+
   .topbar-link {
     font-size: 14px;
     font-weight: 600;
@@ -451,7 +455,7 @@ section {
 /* ------------------------
     Contact
 ------------------------*/
-.contact-media a {
+.contact-media a, .contact-media span {
     color: #ffffff;
 }
 
